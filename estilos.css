@@ -1,0 +1,50 @@
+#h1{
+    color:#025157
+
+}
+body{
+    background-color:palegoldenrod;
+}
+/* Margin externo con todos sus lados*/
+.container-header{
+
+margin-top: 40px;
+margin-left: 70px;
+margin-right: 50px;
+background-color: yellow;
+}
+
+.container-header > * {
+    display: inline-block;
+    font-size: 16pt;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+
+}
+
+.logo{
+    width: 10%;
+    height: 50px;
+}
+.logo > img {
+    height: 100%;
+}
+.nav-container {
+    width: 70%;
+    text-align:center;
+    color: violet;
+    font-weight: 500;
+background-color: pink;
+}
+li{
+    display:inline;
+}
+.actions{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+background-color: rgb(10, 228, 57);
+}
+
